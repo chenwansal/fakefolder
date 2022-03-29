@@ -26,11 +26,11 @@
 		"commands": [
 			{
 				"command": "fakefolder.create-fake-folder",
-				"title": "create-fake-folder"
+				"title": "fakefolder: create fake folder"
 			},
 			{
 				"command": "fakefolder.put-file-to-fake-folder",
-				"title": "put-file-to-fake-folder"
+				"title": "fakefolder: put file to fake folder"
 			}
 		],
 		"viewsContainers": {

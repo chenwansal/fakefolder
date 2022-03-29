@@ -2,11 +2,11 @@
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 import * as fs from "fs";
-import { SaveService } from './Service/SaveService';
+import { SaveService } from './Runtime/Service/SaveService';
 import path = require('path');
-import { RENode } from './Entity/RENode';
-import { CommandSystem } from './System/CommandSystem';
-import { AppState } from './AppState/AppState';
+import { RENode } from './Runtime/Entity/RENode';
+import { CommandSystem } from './Runtime/System/CommandSystem';
+import { AppState } from './Runtime/AppState/AppState';
 
 const ROOT_PATH =
     vscode.workspace.workspaceFolders && vscode.workspace.workspaceFolders.length > 0

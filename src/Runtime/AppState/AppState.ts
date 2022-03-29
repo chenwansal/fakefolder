@@ -1,5 +1,5 @@
 import { TextDocument, TreeView } from "vscode";
-import { REDataProvider, REElement } from "../extension";
+import { REDataProvider, REElement } from "../../extension";
 
 export class AppState {
 
