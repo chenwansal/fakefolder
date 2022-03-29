@@ -47,9 +47,9 @@ export class CommandSystem {
                     AppState.re.TriggerTreeChange();
                 };
 
-                parentFolderInput.Open("Create Fake Folder(2/2)", "Input Parent Folder Name", true, GetFolderItems(save));
+                parentFolderInput.Open("Create FakeFolder(2/2)", "Input Parent Folder Name", true, GetFolderItems(save));
             };
-            curFolderInput.Open("Create Fake Folder(1/2)", "Input Folder Name", false, []);
+            curFolderInput.Open("Create FakeFolder(1/2)", "Input Folder Name", false, []);
         });
     }
 
@@ -69,7 +69,7 @@ export class CommandSystem {
                     save.AddNode(node);
                     AppState.re.TriggerTreeChange();
                 };
-                targetFolderInput.Open("Put Current File To Fake Folder", "Select Target Folder", true, GetFolderItems(save));
+                targetFolderInput.Open("Put Current File To FakeFolder", "Select Target Folder", true, GetFolderItems(save));
             } else {
                 console.log("未选中");
             }

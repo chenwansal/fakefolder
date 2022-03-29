@@ -1,10 +1,19 @@
 {
-	"name": "another-folder-view",
-	"displayName": "another_folder_view",
+	"name": "fakefolder",
+	"displayName": "FakeFolder",
 	"description": "",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.65.0"
+	},
+	"publisher": "jackwithtea",
+	"author": {
+		"name": "杰克有茶",
+		"email": "chenwansal1@163.com",
+		"url": "https://jackwithtea.notion.site/d0010115e393418bb65141d6cc027b87"
+	},
+	"repository": {
+		"url": "https://github.com/chenwansal/fakefolder"
 	},
 	"categories": [
 		"Other"
@@ -16,11 +25,11 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "another-folder-view.create-fake-folder",
+				"command": "fakefolder.create-fake-folder",
 				"title": "create-fake-folder"
 			},
 			{
-				"command": "another-folder-view.put-file-to-fake-folder",
+				"command": "fakefolder.put-file-to-fake-folder",
 				"title": "put-file-to-fake-folder"
 			}
 		],

@@ -1,4 +1,4 @@
-const PROJECT_NAME = "another-folder-view";
+const PROJECT_NAME = "fakefolder";
 
 export class CommandHelper {
 
